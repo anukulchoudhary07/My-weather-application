@@ -16,9 +16,8 @@ function initPage() {
     // Assigning a unique API to a variable
     const APIKey = "fbc5d4c7d29ff4bef0fb5af21b01662b";
 
-    function getWeather(cityName) {
-        // Execute a current weather get request from open weather api
-     const queryURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
+  function getWeather(cityName) {
+    const queryURL = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${APIKey}&units=imperial`;
         axios.get(queryURL)
             .then(function (response) {
 
