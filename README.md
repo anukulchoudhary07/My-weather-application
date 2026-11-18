@@ -1,17 +1,76 @@
-# SkyFlow - A Minimalist Weather Dashboard
+# SkyFlow – A Minimalist Weather Dashboard 🌤️
 
-Hey there! Welcome to SkyFlow. I built this clean, simple weather dashboard to solve a common everyday problem: getting accurate, real-time weather details without all the clutter and annoying ads you find on mainstream news sites. 
+SkyFlow is a simple and responsive weather dashboard built to make checking weather information quick and easy. It provides real-time weather updates and a 5-day forecast for cities around the world using the OpenWeatherMap API.
 
-You can type in any city in the world, hit search, and instantly see what it feels like outside right now, plus what the weather looks like for the next 5 days. 
+The application also remembers recently searched cities, making it easier to check the weather again without entering the same location repeatedly.
 
-## 🌟 Cool Features Built In
-* **Live Weather Data:** Instantly grabs up-to-the-minute details like current temperature, humidity levels, and wind speed.
-* **5-Day Outlook:** A clean row of forecast cards so you can plan out your upcoming week at a glance.
-* **Smart Search History:** The app remembers your recently searched cities. Next time you open the app, you can just click your city's button to instantly check the skies again.
-* **Completely Responsive:** Designed to look smooth and clean whether you're looking at it on a massive desktop monitor or a laptop screen.
+## 📸 Preview
 
-## 🛠️ The Tech Behind It
-I kept the core stack straightforward and focused entirely on making a fast, reliable frontend experience:
-* **HTML5:** Handles the structure and layout blueprints for the dashboard elements.
-* **CSS3:** Brings the app to life with modern spacing, clean typography, and responsive alignment.
-* **JavaScript (ES6):** The engine under the hood. It manages the user search input, communicates with the live OpenWeatherMap API using clean async/await functions, and hooks into the browser's LocalStorage to keep your search history intact even if you refresh the page.
+![SkyFlow Weather Dashboard](06-server-side-apis-homework-demo.png)
+
+## ✨ Features
+
+- **Real-Time Weather:** Displays current temperature, feels-like temperature, humidity, and wind speed.
+- **5-Day Forecast:** Shows upcoming weather conditions to help users plan ahead.
+- **City Search:** Search for weather information in cities around the world.
+- **Search History:** Saves recently searched cities using browser LocalStorage.
+- **Responsive Design:** Provides a clean experience across desktop and laptop screens.
+
+## 🛠️ Tech Stack
+
+- **HTML5** – Structures the application.
+- **CSS3** – Handles styling, layout, and responsive design.
+- **JavaScript (ES6)** – Manages application logic, API requests, and user interactions.
+- **OpenWeatherMap API** – Provides current weather and forecast information.
+- **LocalStorage** – Stores recently searched cities in the browser.
+
+## 📂 Project Structure
+
+```text
+My-weather-application/
+│
+├── index.html
+├── script.js
+├── 06-server-side-apis-homework-demo.png
+└── README.md
+```
+
+## 🚀 Getting Started
+
+Follow these steps to run SkyFlow locally.
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/anukulchoudhary07/My-weather-application.git
+```
+
+### 2. Open the project folder
+
+```bash
+cd My-weather-application
+```
+
+### 3. Configure the API key
+
+- Visit [OpenWeatherMap](https://openweathermap.org/api).
+- Get your API key.
+- Add the key in the appropriate location in `script.js`.
+
+### 4. Run the application
+
+Open `index.html` in your web browser.
+
+No additional package installation or build process is required.
+
+## 🌐 API Used
+
+This project uses the [OpenWeatherMap API](https://openweathermap.org/api) to retrieve current weather conditions and forecast data.
+
+**Note:** Configure your own API key before running the application. Avoid committing private API credentials to a public repository.
+
+## 👨‍💻 Author
+
+**Anukul Choudhary**
+
+- GitHub: [@anukulchoudhary07](https://github.com/anukulchoudhary07)
